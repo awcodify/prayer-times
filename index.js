@@ -8,8 +8,8 @@ const kemenagPrayerTimesAPIHost = "https://api.myquran.com/"
 // jakarta coordinates
 const cityId = 1301
 const coordinates = {
-  latitude: 6.2088,
-  longitude: 106.8456
+  latitude: -5.777508,
+  longitude: 106.3977983
 }
 
 const timeZone = "+7"
@@ -130,4 +130,3 @@ const computeMonthlyPrayerTimes = async (coordinates) => {
 }
 
 console.log(await computeMonthlyPrayerTimes(coordinates))
-//console.log(await computeAllPrayerTimes(coordinates, new Date()))
